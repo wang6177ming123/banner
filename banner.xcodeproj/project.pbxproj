@@ -14,6 +14,11 @@
 		EC39EEB51E5D7149007B2B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC39EEB41E5D7149007B2B7B /* Assets.xcassets */; };
 		EC39EEB81E5D7149007B2B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC39EEB61E5D7149007B2B7B /* LaunchScreen.storyboard */; };
 		EC39EEC31E5D7149007B2B7B /* bannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EEC21E5D7149007B2B7B /* bannerTests.m */; };
+		EC39EED81E5D71BA007B2B7B /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EECE1E5D71BA007B2B7B /* BannerView.m */; };
+		EC39EED91E5D71BA007B2B7B /* fourview.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EED11E5D71BA007B2B7B /* fourview.m */; };
+		EC39EEDA1E5D71BA007B2B7B /* oneview.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EED31E5D71BA007B2B7B /* oneview.m */; };
+		EC39EEDB1E5D71BA007B2B7B /* threeview.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EED51E5D71BA007B2B7B /* threeview.m */; };
+		EC39EEDC1E5D71BA007B2B7B /* twoview.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39EED71E5D71BA007B2B7B /* twoview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		EC39EEBE1E5D7149007B2B7B /* bannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC39EEC21E5D7149007B2B7B /* bannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerTests.m; sourceTree = "<group>"; };
 		EC39EEC41E5D7149007B2B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC39EECD1E5D71BA007B2B7B /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		EC39EECE1E5D71BA007B2B7B /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		EC39EED01E5D71BA007B2B7B /* fourview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourview.h; sourceTree = "<group>"; };
+		EC39EED11E5D71BA007B2B7B /* fourview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourview.m; sourceTree = "<group>"; };
+		EC39EED21E5D71BA007B2B7B /* oneview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneview.h; sourceTree = "<group>"; };
+		EC39EED31E5D71BA007B2B7B /* oneview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneview.m; sourceTree = "<group>"; };
+		EC39EED41E5D71BA007B2B7B /* threeview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeview.h; sourceTree = "<group>"; };
+		EC39EED51E5D71BA007B2B7B /* threeview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeview.m; sourceTree = "<group>"; };
+		EC39EED61E5D71BA007B2B7B /* twoview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoview.h; sourceTree = "<group>"; };
+		EC39EED71E5D71BA007B2B7B /* twoview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,9 @@
 		EC39EEA71E5D7149007B2B7B /* banner */ = {
 			isa = PBXGroup;
 			children = (
+				EC39EECD1E5D71BA007B2B7B /* BannerView.h */,
+				EC39EECE1E5D71BA007B2B7B /* BannerView.m */,
+				EC39EECF1E5D71BA007B2B7B /* view */,
 				EC39EEAB1E5D7149007B2B7B /* AppDelegate.h */,
 				EC39EEAC1E5D7149007B2B7B /* AppDelegate.m */,
 				EC39EEAE1E5D7149007B2B7B /* ViewController.h */,
@@ -109,6 +127,21 @@
 				EC39EEC41E5D7149007B2B7B /* Info.plist */,
 			);
 			path = bannerTests;
+			sourceTree = "<group>";
+		};
+		EC39EECF1E5D71BA007B2B7B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EC39EED01E5D71BA007B2B7B /* fourview.h */,
+				EC39EED11E5D71BA007B2B7B /* fourview.m */,
+				EC39EED21E5D71BA007B2B7B /* oneview.h */,
+				EC39EED31E5D71BA007B2B7B /* oneview.m */,
+				EC39EED41E5D71BA007B2B7B /* threeview.h */,
+				EC39EED51E5D71BA007B2B7B /* threeview.m */,
+				EC39EED61E5D71BA007B2B7B /* twoview.h */,
+				EC39EED71E5D71BA007B2B7B /* twoview.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC39EED81E5D71BA007B2B7B /* BannerView.m in Sources */,
+				EC39EEDC1E5D71BA007B2B7B /* twoview.m in Sources */,
+				EC39EEDA1E5D71BA007B2B7B /* oneview.m in Sources */,
 				EC39EEB01E5D7149007B2B7B /* ViewController.m in Sources */,
 				EC39EEAD1E5D7149007B2B7B /* AppDelegate.m in Sources */,
+				EC39EED91E5D71BA007B2B7B /* fourview.m in Sources */,
+				EC39EEDB1E5D71BA007B2B7B /* threeview.m in Sources */,
 				EC39EEAA1E5D7149007B2B7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
